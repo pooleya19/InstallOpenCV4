@@ -13,6 +13,10 @@ libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev \
 gfortran openexr libatlas-base-dev python3-dev python3-numpy \ 
 libtbb2 libtbb-dev
 
+sudo apt install v4l-utils
+
+sudo apt install libcanberra-gtk-module
+
 # Download and unpack sources
 wget -O opencv.zip https://github.com/opencv/opencv/archive/4.x.zip
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.x.zip
