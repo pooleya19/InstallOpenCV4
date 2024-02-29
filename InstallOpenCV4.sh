@@ -30,3 +30,8 @@ cmake --build .
 
 # Install
 sudo make install
+
+# Create .gitignore to ignore everything. 
+cd ..
+echo "*" > .gitignore
+# There's a good chance the .gitignore will be hidden, check in command line with: ls -al
